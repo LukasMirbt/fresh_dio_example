@@ -1,0 +1,27 @@
+name: fresh_example
+description: Fresh Http Client Example Flutter Application
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  bloc: ^8.0.0
+  equatable: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  jsonplaceholder_client:
+    path: packages/jsonplaceholder_client
+  photos_repository:
+    path: packages/photos_repository
+  user_repository:
+    path: packages/user_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
